@@ -1,2 +1,2 @@
 # trabalhorenipinto
- Formação da pagina inicial
+ Este é o arquivo da pagina inicial.
