@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+   }
+body{
+    background-color: rgb(253, 135, 0);
+}
+header{
+   
+}
+.container{
+    height: 100%;
+    margin: 20px;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+.card{
+    background-color: rgb(255,236,139);
+    width: 350px;
+    height: 160px;
+    padding: 20px 0;
+    text-align: left;
+    border-radius: 15px;
+     margin: 20px;
+
+}
+
+#titulo-card{
+    margin-top: -12px;
+    text-align: center;
+}
+#conteudo-card{ 
+
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 1.4pc;
+}
+    footer{
+        background-color: rgb(255,236,139);
+    
+        padding: 20px; 
+        margin-top: 270px   
+    
+    
+    }
+    
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -15px;
+    }
+    
+    #logo2{
+        height: 70px;
+    }
+    
+    #copy{
+ 
+    font-size: 10px;
+    }
+
+    #termo{
+        
+    
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    margin-top: -30px;
+}
