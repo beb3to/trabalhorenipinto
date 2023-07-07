@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+body{
+    background-color: rgb(253, 135, 0);
+    display: flex;
+    flex-direction: column;
+}
+header{
+
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#logo1{
+ height: 105px;
+ margin-top: -84px;
+} 
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(255, 236, 139);    
+  }
+  
+a{
+    text-decoration: none;
+    color: black; 
+    
+}
+
+
+main{
+    flex: 1;
+}
+
+.imagens{
+    
+    margin-left: 650px;
+    text-align: center;
+    margin-top: 64px;
+   
+}
+.imagens img{
+    border-radius: 20px;  
+    height: 272px;
+    margin: 8px;
+}
+
+
+.textoe{
+    background-color:rgb(255, 236, 139);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin-top: -25px;
+    margin-left: -50px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-60%, -60%);
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(255, 236, 139);
+    padding: 20px; /* Espaçamento interno do rodapé */
+   
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+}  
+
+#logo2{
+    height: 70px;    
+}
+
+#copy{
+font-size: 10px;
+}
+
+#termo{
+display: flex;
+float: left;
+margin: 0;
+padding: 0;
+font-size: 10px;
+margin-top: -30px;
+}
+
